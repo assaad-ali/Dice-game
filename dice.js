@@ -34,10 +34,10 @@ function displayResult(){
 
     let resultMessage = ""
     if(firstDice > secondDice){
-        resultMessage = "Player 1 wins!"
+        resultMessage = "🚩 Player 1 wins!"
     }
     else if( secondDice > firstDice){
-        resultMessage = "Player 2 wins!"
+        resultMessage = "🚩 Player 2 wins!"
     }
     else{
         resultMessage = "Draw!"
