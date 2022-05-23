@@ -31,8 +31,19 @@ function setImage2(diceNumber){
 }
 
 function displayResult(){
-    
-    
+
+    let resultMessage = ""
+    if(firstDice > secondDice){
+        resultMessage = "Player 1 wins!"
+    }
+    else if( secondDice > firstDice){
+        resultMessage = "Player 2 wins!"
+    }
+    else{
+        resultMessage = "Draw!"
+    }
+    console.log(resultMessage)
+    document.getElementById("message").innerText = resultMessage
 }
 
 /********************* Initliaze dice game /**********************/
