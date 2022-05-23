@@ -19,6 +19,17 @@ function throwSecondDice(){
     setImage2(secondDice)
 }
 
+function setImage1(diceNumber){
+    const diceImage1 = "images/dice" + diceNumber +".png"
+    document.getElementById("dice1").setAttribute("src", diceImage1)
+    
+}
+function setImage2(diceNumber){
+    const diceImage2 = "images/dice" + diceNumber +".png"
+    document.getElementById("dice2").setAttribute("src", diceImage2)
+    
+}
+
 function displayResult(){
     
 }
