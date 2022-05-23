@@ -10,13 +10,13 @@ function getRandomNumber(){
 function throwFirstDice(){
 
     firstDice = getRandomNumber()
-    setImage(firstDice)
+    setImage1(firstDice)
 }
 
 function throwSecondDice(){
 
     secondDice = getRandomNumber()
-    setImage(secondDice)
+    setImage2(secondDice)
 }
 
 function displayResult(){
@@ -25,7 +25,7 @@ function displayResult(){
 
 /********************* Initliaze dice game /**********************/
 
-function intiDice(){
+function initDice(){
 
     // displayStartGameMessage()
     throwFirstDice()

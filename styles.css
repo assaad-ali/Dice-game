@@ -9,6 +9,10 @@
   display: inline-block;
 
 }
+.dice-container{
+  display: flex;
+  flex-direction: row;
+}
 
 body {
   background-color: #393E46;
@@ -39,3 +43,4 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
