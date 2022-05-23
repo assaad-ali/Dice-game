@@ -9,11 +9,14 @@ function getRandomNumber(){
 }
 function throwFirstDice(){
 
-    
+    firstDice = getRandomNumber()
+    setImage(firstDice)
 }
 
 function throwSecondDice(){
-    
+
+    secondDice = getRandomNumber()
+    setImage(secondDice)
 }
 
 function displayResult(){
