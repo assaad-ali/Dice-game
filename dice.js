@@ -32,6 +32,7 @@ function setImage2(diceNumber){
 
 function displayResult(){
     
+    
 }
 
 /********************* Initliaze dice game /**********************/
